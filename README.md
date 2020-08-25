@@ -1,3 +1,6 @@
-# Virtual_pen_and_eraser
-This project use Image Processing to write on your screen tracking a specified object beforehand.
-First using the tracebars, filter the object you want to track. Now that object will be treated as your vitual pen and you can write with that. Addition to that, you will have eraser to erase the stuff written and the bringing the pen near to camera will clear the canvas
+# Screen_pen_and_eraser
+Colour mask the specified object to use it as virtual pen. After noise reduction methods trace the object from the previous frame and drawing the line to the current frame on black canvas and then merging with the foreground. Eraser is black ink. Tech : Image processing, Python, OpenCV.
+## Results
+![Selection_001](https://user-images.githubusercontent.com/53592324/91216653-f223c400-e733-11ea-9b66-723cbd57b774.png)
+![Selection_002](https://user-images.githubusercontent.com/53592324/91216269-49756480-e733-11ea-96e8-e22f7f36881d.png)
+![Selection_003](https://user-images.githubusercontent.com/53592324/91217760-a96d0a80-e735-11ea-8215-8ab9d28ad4e4.gif)
